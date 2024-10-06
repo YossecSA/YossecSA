@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+/*==================== VARIABLES CSS ====================*/
+:root{
+    --header-height: 3rem;
+
+    /*========== Colors ==========*/
+    /* Change favorite color */
+    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+
+    /* HSL color mode */
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+    --container-color: #0d0a0b;
+    --header-color: #1A1919;
+
+    /*========== Font and typography ==========*/
+    --body-font: "Roboto", sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+}
+
+/*==================== REUSABLE CSS CLASSES ====================*/
+.section {
+    padding: 2rem 0 4rem;
+    height: 100vh;
+}
+
+.section__title {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+}
+
+.section__subtitle {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
+}
+
+.section__title, 
+.section__subtitle {
+    text-align: center;
+}
+
+body{
+    font-family: var(--body-font);
+    background-color: var(--container-color);
+    color: var(--text-color-light);
+}
+
+
+/* ===== navbar*/
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__nav {
+    width: 95%; 
+    position: fixed;
+    bottom: 1rem;
+    background-color: var(--header-color);
+    padding: 8px;
+    border-radius: 32px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__menu-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    font-size: var(--smaller-font-size); 
+    transition: all 0.3s ease;
+}
+
+.header__menu-link:hover {
+    color: #FF7F50; /* Cambia color del texto en hover */
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease;
+}
+
+/*  ========== hero*/
+.hero{
+    justify-content: center;
+    align-items: center;
+}
+.hero__container{
+    align-items: center;
+    justify-content: center;
+}
+
+/*diseño tables*/
+@media (min-width: 768px) {
+    body{
+        background-color: aliceblue;
+    }
+    .header__nav{
+        width: 700px; 
+    }
+    .icon{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* Estilos para pantallas aún más grandes (desktop) */
+@media (min-width: 1024px) {
+    main{
+        max-width: 1024px;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+    .header{
+        max-width: 1024px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        position: sticky;
+        top: 1rem;
+    }
+    .header__nav{
+        position: relative;
+        bottom: auto;
+        background-color: transparent;
+    }
+    
+    .header__menu {
+        justify-content: space-between;
+        
+    }
+
+    .header__menu-link {
+        flex-direction: row;
+        font-size: var(--normal-font-size); 
+    }
+
+}
