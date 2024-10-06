@@ -228,4 +228,43 @@ body{
         font-size: var(--normal-font-size); 
     }
 
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero__container {
+        flex-direction: row;
+    }
+    
+    .hero__image-wrapper {
+        max-width: 400px;
+        align-items: start;
+    }
+    
+    .hero__content-wrapper {
+        gap: 2rem;
+        align-items: start;
+    }
+    .hero__content{
+        gap: 1rem;
+        align-items: start;
+    }
+    .hero__title {
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--primario-color);
+    }
+    
+    .hero__subtitle {
+        font-size: 2rem;
+        color: #bce3fb;
+    }
+    
+    .hero__description {
+        max-width: 100%; 
+        text-align: start;
+    }
+    
 }
