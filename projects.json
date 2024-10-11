@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Sistema de Control de Asistencia",
+        "shortDescription": "Plataforma móvil y web para registrar y reportar asistencia estudiantil en tiempo real.",
+        "description": "Aplicación móvil y web para registrar la asistencia de los alumnos. Los profesores registran asistencia en tiempo real y los padres reciben notificaciones instantáneas. La plataforma permite gestionar alumnos, profesores, aulas, y generar reportes detallados. Los padres pueden revisar la asistencia de sus hijos y la administración de las cuentas móviles está centralizada.",
+        "technologies": ["PHP", "MySQL", "Bootstrap", "JavaScript", "Xamarin"],
+        "imagePortada": "/assets/images/img1.jpg",
+        "images": [
+            "/assets/images/attendance_img1.jpg",
+            "/assets/images/attendance_img2.jpg",
+            "/assets/images/attendance_img3.jpg"
+        ]
+    },
+    {
+        "name": "Aplicación de Reportes de Seguridad",
+        "shortDescription": "App móvil para reportar problemas de seguridad en tiempo real en una institución educativa.",
+        "description": "App móvil para que los profesores reporten problemas de seguridad. Permite tomar fotos, describir el problema y asignar un nivel de peligrosidad. Los reportes son gestionados por el área de seguridad y los profesores pueden seguir el estado del reporte. Mejora la seguridad institucional mediante un seguimiento en tiempo real.",
+        "technologies": ["Xamarin", "PHP", "MySQL"],
+        "imagePortada": "/assets/images/img2.jpg",
+        "images": [
+            "/assets/images/img1.jpg",
+            "/assets/images/img2.jpg",
+            "/assets/images/img3.jpg"
+        ]
+    },
+    {
+        "name": "Sistema de Gestión para Academia de Fútbol",
+        "shortDescription": "Aplicación de escritorio para gestionar inscripciones y pagos de una academia de fútbol.",
+        "description": "Aplicación de escritorio para inscribir alumnos y gestionar pagos mensuales. Genera alertas de pagos pendientes y permite crear reportes financieros. Facilita el control de pagos y deudas en la academia, optimizando la gestión de los estudiantes y sus obligaciones financieras.",
+        "technologies": ["C#", "Windows Forms", "MySQL"],
+        "imagePortada": "/assets/images/img3.jpg",
+        "images": [
+            "/assets/images/img3.jpg",
+            "/assets/images/football_img2.jpg",
+            "/assets/images/football_img3.jpg"
+        ]
+    },
+    {
+        "name": "Sistema de Gestión de Concursos de Robótica",
+        "shortDescription": "Plataforma web para la gestión de concursos de robótica y certificación de usuarios.",
+        "description": "Plataforma web para inscripciones, pagos y certificados de concursos de robótica. Los usuarios gestionan sus inscripciones y los administradores controlan concursos, ventas y certificados. También permite generar reportes y gestionar usuarios de manera eficiente.",
+        "technologies": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+        "imagePortada": "/assets/images/robotics_portada.jpg",
+        "images": [
+            "/assets/images/robotics_img1.jpg",
+            "/assets/images/robotics_img2.jpg",
+            "/assets/images/robotics_img3.jpg"
+        ]
+    },
+    {
+        "name": "Interfaz Frontend de Tienda Online",
+        "shortDescription": "Interfaz visual de una tienda online, diseñada para ser adaptable y minimalista.",
+        "description": "Desarrollo de la interfaz visual de una tienda online con catálogo, detalles de productos y carrito de compras. Construido con HTML, Tailwind CSS y TypeScript, está diseñado para ser adaptable a un sistema e-commerce completo.",
+        "technologies": ["HTML", "Tailwind CSS", "TypeScript"],
+        "imagePortada": "/assets/images/img3.jpg",
+        "images": [
+            "/assets/images/store_img1.jpg",
+            "/assets/images/store_img2.jpg",
+            "/assets/images/store_img3.jpg"
+        ]
+    }
+]
