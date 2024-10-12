@@ -543,11 +543,119 @@ body{
     font-weight: 400; 
 }
 
+/* ========= Educacion =============*/
+.education{
+    width: 90%;
+    margin: 0 auto;
+}
+.education__title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #222;
+}
+
+.education__list {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.education__item {
+    background-color: #161616;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.education__institution{
+    display: block;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #f0f0f0f0;
+}
+
+.education__type {
+    font-size: 1rem;
+    color: #666;
+}
+
+.education__details {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.education__year,
+.education__location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Espacio entre ícono y texto */
+}
+
+.education__icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.education__year-text,
+.education__location-text {
+    font-size: 1rem;
+    color: #E0E0E0; /* Color más oscuro para los detalles */
+}
+
+.education__description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* ======== contact ===================*/
+
+.contact {
+    text-align: center; /* Centra el contenido */
+    margin: 2rem 0; /* Espaciado */
+}
+
+.contact__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact__description {
+    margin-bottom: 1.5rem;
+}
+
+.contact__icons {
+    display: flex;
+    justify-content: center; /* Centra los iconos */
+    gap: 1rem; /* Espaciado entre iconos */
+}
+
+.contact__icon-link {
+    display: inline-block;
+    width: 40px; /* Tamaño del icono */
+    height: 40px; /* Tamaño del icono */
+    text-decoration: none; /* Sin subrayado */
+    color: currentColor; /* Color del icono */
+    transition: transform 0.3s; /* Transición suave */
+}
+
+.contact__icon-link:hover {
+    transform: scale(1.1); /* Efecto de aumento al pasar el ratón */
+}
+
 /* footer */
 .footer {
     max-width: 1024px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 }
 .footer__container{
     display: flex;
@@ -568,20 +676,27 @@ body{
     font-weight: bold;
 }
 
-.footer__social-links, .footer__links-list {
+.footer__social-links, .footer__links-list, .footer__social-info {
     margin-top: 1rem;
+}
+.footer__social-info{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    gap: 1rem;
 }
 
 .footer__social-list {
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: start;
     gap: 1rem;
 }
 
 .footer__social-item {
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 
 .footer__social-link {
@@ -590,17 +705,17 @@ body{
     justify-content: center;
     width: 50px;
     height: 50px; 
-    background-color: #1A1919; 
-    border-radius: 12px; 
+    background-color: #eeeeee; 
+    border-radius: 100%; 
     transition: background-color 0.3s ease, transform 0.3s ease; 
-    color: #fff;
-    margin-bottom: 1rem;
+    color: #1A1919;
 }
 
 .footer__social-link:hover {
     background-color: #f39c12; /* Cambia el color al pasar el mouse */
     transform: scale(1.1); /* Aumenta ligeramente el tamaño del botón al pasar el mouse */
 }
+
 .icon-tabler__footer{
     width: 28px;
     height: 28px;
@@ -667,9 +782,36 @@ body{
         width: 24px;
         height: 24px;
     }
+
+    /* ==== */
+    .education {
+        padding: 3rem;
+    }
+
+    .education__title {
+        font-size: 2.2rem;
+    }
+
+    .education__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem; /* Mayor espacio entre ítems en escritorio */
+    }
+
+    .education__item {
+        width: calc(50% - 1rem); /* Cada ítem ocupará el 50% del ancho */
+    }
+
+    .education__year-text,
+    .education__location-text {
+        font-size: 1rem;
+    }
+
+    .education__description {
+        font-size: 0.95rem;
+    }
 }
 
-/* Estilos para pantallas aún más grandes (desktop) */
 @media (min-width: 1024px) {
     main{
         max-width: 1024px;
