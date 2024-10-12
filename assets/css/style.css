@@ -475,6 +475,73 @@ body{
     white-space: nowrap;
 }
 
+/* ======== DISEÑO DE HABILIDADES ===============*/
+.skill{
+    padding: 3rem 0;
+}
+.skills__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #F0F0F0;
+    position: relative; 
+    margin-bottom: 1rem;
+}
+
+.skills__title::before{
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: -5px; 
+    height: 2px;
+    background-color: #F0F0F0;
+    z-index: -1;
+}
+
+.skill__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Cambiado a center para alinear el título */
+    justify-content: center;
+    padding: 2rem 0; /* Espaciado interno para mejor presentación */
+    gap: 2rem;
+}
+
+
+.skills__list{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.skills__list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: .5rem;
+    background-color: #161616;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.skills__list-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); /* Sombra más intensa al pasar el cursor */
+}
+.skills__icon svg{
+    width: 28px;
+    height: 28px;
+}
+.skills__name{
+    color: #fff;
+    font-size: 0.85rem; 
+    text-align: center;
+    font-weight: 400; 
+}
 
 /* footer */
 .footer {
@@ -588,6 +655,8 @@ body{
     border-radius: 50%; 
     margin-right: 10px;
 }
+
+
 
 /*diseño tables*/
 @media (min-width: 768px) {
