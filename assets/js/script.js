@@ -55,7 +55,6 @@ function loadCarouselImages(images) {
     carouselImagesContainer.innerHTML = images.map((img, index) => 
         `<img loading="lazy" src="${img}" class="carousel__image ${index === 0 ? 'active' : ''}" alt="Imagen del proyecto" style="display: ${index === 0 ? 'block' : 'none'};">`
     ).join('');
-    startAutoSlide(); 
 }
 
 function closeModal() {
@@ -70,12 +69,6 @@ function changeImage(direction) {
     carouselImages[currentImageIndex].style.display = 'block'; 
 }
 
-function startAutoSlide() {
-    clearInterval(autoSlideInterval); 
-    autoSlideInterval = setInterval(() => {
-        changeImage(1);
-    }, 3000); 
-}
 
 function stopAutoSlide() {
     clearInterval(autoSlideInterval);
