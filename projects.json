@@ -1,50 +1,56 @@
 [
     {
+        "name": "Sistema de Gestión de Concursos",
+        "shortDescription": "Plataforma web para la gestión de concursos de robótica y certificación de usuarios.",
+        "description": "Plataforma web para inscripciones, pagos y certificados de concursos de robótica. Los usuarios gestionan sus inscripciones y los administradores controlan concursos, ventas y certificados. También permite generar reportes y gestionar usuarios de manera eficiente.",
+        "technologies": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+        "imagePortada": "/assets/images/concurso/concurso1.png",
+        "images": [
+            "/assets/images/concurso/concurso2.png",
+            "/assets/images/concurso/concurso3.png",
+            "/assets/images/concurso/concurso4.png",
+            "/assets/images/concurso/concurso6.png",
+            "/assets/images/concurso/concurso5.png"
+        ]
+    },
+    {
         "name": "Sistema de Control de Asistencia",
         "shortDescription": "Plataforma móvil y web para registrar y reportar asistencia estudiantil en tiempo real.",
         "description": "Aplicación móvil y web para registrar la asistencia de los alumnos. Los profesores registran asistencia en tiempo real y los padres reciben notificaciones instantáneas. La plataforma permite gestionar alumnos, profesores, aulas, y generar reportes detallados. Los padres pueden revisar la asistencia de sus hijos y la administración de las cuentas móviles está centralizada.",
         "technologies": ["PHP", "MySQL", "Bootstrap", "JavaScript", "Xamarin"],
-        "imagePortada": "/assets/images/img1.jpg",
+        "imagePortada": "/assets/images/asistencia/asistencia1.png",
         "images": [
-            "/assets/images/attendance_img1.jpg",
-            "/assets/images/attendance_img2.jpg",
-            "/assets/images/attendance_img3.jpg"
+            "/assets/images/asistencia/asistencia1.png",
+            "/assets/images/asistencia/asistencia2.png",
+            "/assets/images/asistencia/asistencia3.png",
+            "/assets/images/asistencia/asistencia4.png"
         ]
     },
     {
-        "name": "Aplicación de Reportes de Seguridad",
-        "shortDescription": "App móvil para reportar problemas de seguridad en tiempo real en una institución educativa.",
-        "description": "App móvil para que los profesores reporten problemas de seguridad. Permite tomar fotos, describir el problema y asignar un nivel de peligrosidad. Los reportes son gestionados por el área de seguridad y los profesores pueden seguir el estado del reporte. Mejora la seguridad institucional mediante un seguimiento en tiempo real.",
-        "technologies": ["Xamarin", "PHP", "MySQL"],
-        "imagePortada": "/assets/images/img2.jpg",
+        "name": "Sistema de Control de Certificados",
+        "shortDescription": "Sistema para gestionar certificados en el Colegio Leoncio Prado",
+        "description": "Este sistema automatiza la gestión de certificados en el Colegio Leoncio Prado. Los certificados pasan por varias etapas: son generados por el área de secretaría, enviados a revisión, y finalmente pasan al director para su firma. Todo el proceso es digital, lo que permite un seguimiento eficiente y asegura que los certificados sean procesados de manera correcta y rápida.",
+        "technologies": ["PHP", "MySQL", "JavaScript"],
+        "imagePortada": "/assets/images/leoncioPrado/leoncio1.png",
         "images": [
-            "/assets/images/img1.jpg",
-            "/assets/images/img2.jpg",
-            "/assets/images/img3.jpg"
+            "/assets/images/leoncioPrado/leoncio2.png",
+            "/assets/images/leoncioPrado/leoncio3.png",
+            "/assets/images/leoncioPrado/leoncio4.png",
+            "/assets/images/leoncioPrado/leoncio5.png",
+            "/assets/images/leoncioPrado/leoncio6.png"
         ]
-    },
+    },    
     {
-        "name": "Sistema de Gestión para Academia de Fútbol",
+        "name": "Sistema de Gestión para Academia",
         "shortDescription": "Aplicación de escritorio para gestionar inscripciones y pagos de una academia de fútbol.",
         "description": "Aplicación de escritorio para inscribir alumnos y gestionar pagos mensuales. Genera alertas de pagos pendientes y permite crear reportes financieros. Facilita el control de pagos y deudas en la academia, optimizando la gestión de los estudiantes y sus obligaciones financieras.",
         "technologies": ["C#", "Windows Forms", "MySQL"],
-        "imagePortada": "/assets/images/img3.jpg",
+        "imagePortada": "/assets/images/futbol/futbol1.png",
         "images": [
-            "/assets/images/img3.jpg",
-            "/assets/images/football_img2.jpg",
-            "/assets/images/football_img3.jpg"
-        ]
-    },
-    {
-        "name": "Sistema de Gestión de Concursos de Robótica",
-        "shortDescription": "Plataforma web para la gestión de concursos de robótica y certificación de usuarios.",
-        "description": "Plataforma web para inscripciones, pagos y certificados de concursos de robótica. Los usuarios gestionan sus inscripciones y los administradores controlan concursos, ventas y certificados. También permite generar reportes y gestionar usuarios de manera eficiente.",
-        "technologies": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-        "imagePortada": "/assets/images/robotics_portada.jpg",
-        "images": [
-            "/assets/images/robotics_img1.jpg",
-            "/assets/images/robotics_img2.jpg",
-            "/assets/images/robotics_img3.jpg"
+            "/assets/images/futbol/futbol2.png",
+            "/assets/images/futbol/futbol3.png",
+            "/assets/images/futbol/futbol4.png",
+            "/assets/images/futbol/futbol5.png"
         ]
     },
     {
@@ -52,11 +58,27 @@
         "shortDescription": "Interfaz visual de una tienda online, diseñada para ser adaptable y minimalista.",
         "description": "Desarrollo de la interfaz visual de una tienda online con catálogo, detalles de productos y carrito de compras. Construido con HTML, Tailwind CSS y TypeScript, está diseñado para ser adaptable a un sistema e-commerce completo.",
         "technologies": ["HTML", "Tailwind CSS", "TypeScript"],
-        "imagePortada": "/assets/images/img3.jpg",
+        "imagePortada": "/assets/images/tienda/tienda1.png",
         "images": [
-            "/assets/images/store_img1.jpg",
-            "/assets/images/store_img2.jpg",
-            "/assets/images/store_img3.jpg"
+            "/assets/images/tienda/tienda1.png",
+            "/assets/images/tienda/tienda2.png",
+            "/assets/images/tienda/tienda4.png",
+            "/assets/images/tienda/tienda3.png"
+        ]
+    },
+    {
+        "name": "Decodificador de Texto",
+        "shortDescription": "Aplicación web que decodifica y codifica texto utilizando reglas específicas.",
+        "description": "Este proyecto, realizado como parte de los desafíos de Alura Latam, es una aplicación web que permite codificar y decodificar texto. Utiliza un conjunto de reglas específicas para transformar las letras en caracteres distintos, y puede ser utilizada tanto para cifrar como para descifrar mensajes. El decodificador fue desarrollado para mejorar la lógica de programación y el uso de JavaScript en la manipulación de cadenas de texto.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "imagePortada": "/assets/images/Alura/alura1.png",
+        "images": [
+            "/assets/images/Alura/alura1.png",
+            "/assets/images/Alura/alura2.png",
+            "/assets/images/Alura/alura3.png",
+            "/assets/images/Alura/alura4.png",
+            "/assets/images/Alura/alura5.png",
+            "/assets/images/Alura/alura6.png"
         ]
     }
 ]

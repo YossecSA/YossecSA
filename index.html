@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>.: Yossec :.</title>
 </head>
     <body>
         <header class="header">
-            <a href="" class="header__logo-img">
-                <img src="./assets/icons/logo.svg" alt="logo de Yossec">
+            <a href="#hero" class="header__logo-img">
+                <img  loading="lazy" src="./assets/icons/logo.svg" alt="Logo de Yossec">
             </a>
             <nav class="header__nav">
                 <ul class="header__menu">
                     <li class="header__menu-item">
-                        <a href="#hero" class="header__menu-link">
+                        <a href="#hero" class="header__menu-link" aria-label="Ir al inicio">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                             </svg>
@@ -23,7 +26,7 @@
                         </a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="#about" class="header__menu-link">
+                        <a href="#about" class="header__menu-link" aria-label="Sobre mí">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                             </svg>
@@ -31,7 +34,7 @@
                         </a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="#" class="header__menu-link">
+                        <a href="#projects" class="header__menu-link" aria-label="Proyectos">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
                             </svg>        
@@ -39,7 +42,7 @@
                         </a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="#" class="header__menu-link">
+                        <a href="#education" class="header__menu-link" aria-label="Estudios">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
                             </svg>
@@ -48,7 +51,7 @@
                         </a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="#" class="header__menu-link">
+                        <a href="#footer" class="header__menu-link" aria-label="Contacto">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
                             </svg>
@@ -62,14 +65,12 @@
             <section class="hero" id="hero">
                 <div class="hero__container">
                     <figure class="hero__image-wrapper">
-                        <img src="./assets/images/fondo.png" alt="Foto de Yossec Suarez" class="hero__image" />
+                        <img loading="lazy" src="./assets/images/fondo.png" alt="Foto de Yossec Suarez" class="hero__image" />
                     </figure>
                     <div class="hero__content-wrapper">
                         <div class="hero__content">
-                            <h1 class="hero__title">!Hola, Soy Yossec Suarez!</h1>
-                            <span class="hero__subtitle">
-                                Tec. en Ingeniería de Software
-                            </span>
+                            <h1 class="hero__title">¡Hola, soy Yossec Suarez!</h1>
+                            <span class="hero__subtitle">Tec. en Ingeniería de Software</span>
                             <p class="hero__description">
                                 Mi pasión por la tecnología comenzó desde joven, y hoy me dedico a transformar ideas en aplicaciones dinámicas y eficientes utilizando tecnologías de vanguardia.
                             </p>
@@ -86,7 +87,7 @@
                     </div>
                 </div>
             </section>
-            
+
             <section class="about section" id="about">
                 <div class="about__container">
                     <figure class="about__image-wrapper">
@@ -180,7 +181,7 @@
                 </div>
             </section>
             
-            <section class="skill" id="habilidades">
+            <section class="skill" id="skills">
                 <div class="skill__container">
                     <h2 class="skills__title">Habilidades</h2>
                     <ul class="skills__list">
@@ -344,7 +345,7 @@
                 </div>
             </section>
 
-            <section class="education">
+            <section class="education" id="education">
                 <h2 class="education__title">Estudios</h2>
             
                 <div class="education__list">
@@ -429,7 +430,7 @@
             </section>
             
         </main>
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="footer__container">
                 <div class="footer__section footer__section--about">
                     <span class="footer__name">Yossec Suarez</span>
