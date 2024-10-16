@@ -186,7 +186,7 @@ body{
     font-size: 1rem; 
     font-weight: 600;
     gap: 0.5rem;
-    background-color: var(--primario-color);
+    background-color: var(--primario-color-btn);
     color: var(--text-color); 
 }
 
