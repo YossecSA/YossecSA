@@ -4,9 +4,9 @@
         "shortDescription": "Plataforma web para la gestión de concursos de robótica y certificación de usuarios.",
         "description": "Plataforma web para inscripciones, pagos y certificados de concursos de robótica. Los usuarios gestionan sus inscripciones y los administradores controlan concursos, ventas y certificados. También permite generar reportes y gestionar usuarios de manera eficiente.",
         "technologies": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-        "imagePortada": "/assets/images/concurso/concurso1.png",
+        "imagePortada": "../images/concurso/concurso1.png",
         "images": [
-            "/assets/images/concurso/concurso2.png",
+            "../images/concurso/concurso2.png",
             "/assets/images/concurso/concurso3.png",
             "/assets/images/concurso/concurso4.png",
             "/assets/images/concurso/concurso6.png",
