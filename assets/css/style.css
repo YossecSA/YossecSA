@@ -147,6 +147,7 @@ body{
     width: 80%;
     height: auto;
     border-radius: 1rem; 
+    mask-image: linear-gradient(to bottom, black 80%, transparent);
 }
 
 .hero__content-wrapper {
@@ -222,7 +223,8 @@ body{
     height: 250px;
     border-radius: 50%;
     overflow: hidden;
-    border: 1px solid white;
+    mask-image: linear-gradient(to bottom, black 80%, transparent);
+    mask-size: 100% 100%;
 }
 .about__image {
     width: 100%;
