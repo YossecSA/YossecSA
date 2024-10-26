@@ -13,7 +13,7 @@ let autoSlideInterval;
 
 async function loadProjects() {
     try {
-        const response = await fetch('./projects.json');
+        const response = await fetch('assets/js/projects.json');
         if (!response.ok) {
             throw new Error('Error al cargar el JSON');
         }
