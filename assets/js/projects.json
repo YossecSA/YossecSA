@@ -8,9 +8,9 @@
         "images": [
             "./assets/images/concurso/concurso2.png",
             "./assets/images/concurso/concurso3.png",
-            "/assets/images/concurso/concurso4.png",
-            "/assets/images/concurso/concurso6.png",
-            "/assets/images/concurso/concurso5.png"
+            "./assets/images/concurso/concurso4.png",
+            "./assets/images/concurso/concurso6.png",
+            "./assets/images/concurso/concurso5.png"
         ]
     },
     {
