@@ -32,7 +32,7 @@ Me enfoco en diseñar y entregar soluciones tecnológicas completas, gestionando
 
 ## 📫 ¿Cómo contactarme?
 Puedes encontrarme en:
-- [LinkedIn](www.linkedin.com/in/yossec-yosefer-suarez-arratea)
+- [LinkedIn](https://www.linkedin.com/in/yossec-yosefer-suarez-arratea)
 - [GitHub](https://github.com/YossecSA)
-- Correo: yossec.arratea22@gmail.com
+- Correo: [yossec.arratea22@gmail.com](mailto:yossec.arratea22@gmail.com)
 <br/>
